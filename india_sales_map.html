@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_79078d3b8d76da834379d2e24464c583 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_79078d3b8d76da834379d2e24464c583" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_79078d3b8d76da834379d2e24464c583 = L.map(
+                "map_79078d3b8d76da834379d2e24464c583",
+                {
+                    center: [20.5937, 78.9629],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8b2cc58028e0e0e6f1950694f02c4bfe = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_8b2cc58028e0e0e6f1950694f02c4bfe.addTo(map_79078d3b8d76da834379d2e24464c583);
+        
+    
+            var circle_marker_222a22db8a0a6c1a19d98cf17e1c705b = L.circleMarker(
+                [19.076, 72.8777],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.5979, "stroke": true, "weight": 3}
+            ).addTo(map_79078d3b8d76da834379d2e24464c583);
+        
+    
+        var popup_7e3b3a6ae06af8a013b1c2d1195a1eec = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_45cbc1ee1bad2c1847bca4cedb49fe70 = $(`<div id="html_45cbc1ee1bad2c1847bca4cedb49fe70" style="width: 100.0%; height: 100.0%;"><b>Mumbai</b><br>             Sales: ₹171,958<br>             Stores: 4<br>             Demand Score: 68<br>             Expansion: No</div>`)[0];
+                popup_7e3b3a6ae06af8a013b1c2d1195a1eec.setContent(html_45cbc1ee1bad2c1847bca4cedb49fe70);
+            
+        
+
+        circle_marker_222a22db8a0a6c1a19d98cf17e1c705b.bindPopup(popup_7e3b3a6ae06af8a013b1c2d1195a1eec)
+        ;
+
+        
+    
+    
+            var circle_marker_a523e4c355ecd0c6868aefc4d3a24215 = L.circleMarker(
+                [28.6139, 77.209],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.36685, "stroke": true, "weight": 3}
+            ).addTo(map_79078d3b8d76da834379d2e24464c583);
+        
+    
+        var popup_d1d4ab3ee9cb24378cc4ace5ef63184f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1171a3cabeba5bb8c6a3268dcf7ed310 = $(`<div id="html_1171a3cabeba5bb8c6a3268dcf7ed310" style="width: 100.0%; height: 100.0%;"><b>Delhi</b><br>             Sales: ₹187,337<br>             Stores: 3<br>             Demand Score: 62<br>             Expansion: No</div>`)[0];
+                popup_d1d4ab3ee9cb24378cc4ace5ef63184f.setContent(html_1171a3cabeba5bb8c6a3268dcf7ed310);
+            
+        
+
+        circle_marker_a523e4c355ecd0c6868aefc4d3a24215.bindPopup(popup_d1d4ab3ee9cb24378cc4ace5ef63184f)
+        ;
+
+        
+    
+    
+            var circle_marker_48a91396f5ad74082fc4aadf9e179106 = L.circleMarker(
+                [12.9716, 77.5946],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.96825, "stroke": true, "weight": 3}
+            ).addTo(map_79078d3b8d76da834379d2e24464c583);
+        
+    
+        var popup_f0b1526de64a05a32495023d83d470f9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_492c1fb1901af9073a59b17cfa89a27f = $(`<div id="html_492c1fb1901af9073a59b17cfa89a27f" style="width: 100.0%; height: 100.0%;"><b>Bangalore</b><br>             Sales: ₹379,365<br>             Stores: 5<br>             Demand Score: 41<br>             Expansion: No</div>`)[0];
+                popup_f0b1526de64a05a32495023d83d470f9.setContent(html_492c1fb1901af9073a59b17cfa89a27f);
+            
+        
+
+        circle_marker_48a91396f5ad74082fc4aadf9e179106.bindPopup(popup_f0b1526de64a05a32495023d83d470f9)
+        ;
+
+        
+    
+    
+            var circle_marker_aa8dc5310f94baba3dc0fbd2f6b39b32 = L.circleMarker(
+                [17.385, 78.4867],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.87275, "stroke": true, "weight": 3}
+            ).addTo(map_79078d3b8d76da834379d2e24464c583);
+        
+    
+        var popup_4b9db14fbe5fda4bf173bc9058b973cb = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7c2575fd4b3ed12d69e677135a943b0b = $(`<div id="html_7c2575fd4b3ed12d69e677135a943b0b" style="width: 100.0%; height: 100.0%;"><b>Hyderabad</b><br>             Sales: ₹317,455<br>             Stores: 12<br>             Demand Score: 60<br>             Expansion: No</div>`)[0];
+                popup_4b9db14fbe5fda4bf173bc9058b973cb.setContent(html_7c2575fd4b3ed12d69e677135a943b0b);
+            
+        
+
+        circle_marker_aa8dc5310f94baba3dc0fbd2f6b39b32.bindPopup(popup_4b9db14fbe5fda4bf173bc9058b973cb)
+        ;
+
+        
+    
+    
+            var circle_marker_1fab33e238293bdc56d725ad80c11fa0 = L.circleMarker(
+                [13.0827, 80.2707],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.43975, "stroke": true, "weight": 3}
+            ).addTo(map_79078d3b8d76da834379d2e24464c583);
+        
+    
+        var popup_344bf3aad7ce0f488847f293633960da = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_54009e9103913af47437ed11ff2f6e21 = $(`<div id="html_54009e9103913af47437ed11ff2f6e21" style="width: 100.0%; height: 100.0%;"><b>Chennai</b><br>             Sales: ₹308,795<br>             Stores: 9<br>             Demand Score: 88<br>             Expansion: No</div>`)[0];
+                popup_344bf3aad7ce0f488847f293633960da.setContent(html_54009e9103913af47437ed11ff2f6e21);
+            
+        
+
+        circle_marker_1fab33e238293bdc56d725ad80c11fa0.bindPopup(popup_344bf3aad7ce0f488847f293633960da)
+        ;
+
+        
+    
+    
+            var circle_marker_b968d8f1e26e1afdf4c038cbab06ef4d = L.circleMarker(
+                [22.5726, 88.3639],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.02615, "stroke": true, "weight": 3}
+            ).addTo(map_79078d3b8d76da834379d2e24464c583);
+        
+    
+        var popup_2e4b30adfa1869ab8337e5f7ced82dca = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_59e5c9ea4a228c9ffa967f4c98ab5580 = $(`<div id="html_59e5c9ea4a228c9ffa967f4c98ab5580" style="width: 100.0%; height: 100.0%;"><b>Kolkata</b><br>             Sales: ₹180,523<br>             Stores: 12<br>             Demand Score: 55<br>             Expansion: No</div>`)[0];
+                popup_2e4b30adfa1869ab8337e5f7ced82dca.setContent(html_59e5c9ea4a228c9ffa967f4c98ab5580);
+            
+        
+
+        circle_marker_b968d8f1e26e1afdf4c038cbab06ef4d.bindPopup(popup_2e4b30adfa1869ab8337e5f7ced82dca)
+        ;
+
+        
+    
+    
+            var circle_marker_d2cc3238bc3e1166950686f748a43cc1 = L.circleMarker(
+                [18.5204, 73.8567],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21.5745, "stroke": true, "weight": 3}
+            ).addTo(map_79078d3b8d76da834379d2e24464c583);
+        
+    
+        var popup_c10b8b7410dc8e62b335556e28d39bc9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_fd31d0ccf453f30e9cd15cc4262fd959 = $(`<div id="html_fd31d0ccf453f30e9cd15cc4262fd959" style="width: 100.0%; height: 100.0%;"><b>Pune</b><br>             Sales: ₹431,490<br>             Stores: 12<br>             Demand Score: 94<br>             Expansion: No</div>`)[0];
+                popup_c10b8b7410dc8e62b335556e28d39bc9.setContent(html_fd31d0ccf453f30e9cd15cc4262fd959);
+            
+        
+
+        circle_marker_d2cc3238bc3e1166950686f748a43cc1.bindPopup(popup_c10b8b7410dc8e62b335556e28d39bc9)
+        ;
+
+        
+    
+    
+            var circle_marker_70f59c08c57ceefe761b43bbc0caf0ed = L.circleMarker(
+                [23.0225, 72.5714],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6945, "stroke": true, "weight": 3}
+            ).addTo(map_79078d3b8d76da834379d2e24464c583);
+        
+    
+        var popup_62f9d0eead67d8ca450911202bbdc8ea = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6d94d505aa89394460320ea893aa0847 = $(`<div id="html_6d94d505aa89394460320ea893aa0847" style="width: 100.0%; height: 100.0%;"><b>Ahmedabad</b><br>             Sales: ₹53,890<br>             Stores: 7<br>             Demand Score: 60<br>             Expansion: No</div>`)[0];
+                popup_62f9d0eead67d8ca450911202bbdc8ea.setContent(html_6d94d505aa89394460320ea893aa0847);
+            
+        
+
+        circle_marker_70f59c08c57ceefe761b43bbc0caf0ed.bindPopup(popup_62f9d0eead67d8ca450911202bbdc8ea)
+        ;
+
+        
+    
+    
+            var circle_marker_778700d860b347306579ee133528019a = L.circleMarker(
+                [26.9124, 75.7873],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.49655, "stroke": true, "weight": 3}
+            ).addTo(map_79078d3b8d76da834379d2e24464c583);
+        
+    
+        var popup_8028eff87a2ba8fd980588c63d5ae4e6 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7dc5eb533b58a96589350571efbe6d2e = $(`<div id="html_7dc5eb533b58a96589350571efbe6d2e" style="width: 100.0%; height: 100.0%;"><b>Jaipur</b><br>             Sales: ₹289,931<br>             Stores: 14<br>             Demand Score: 89<br>             Expansion: No</div>`)[0];
+                popup_8028eff87a2ba8fd980588c63d5ae4e6.setContent(html_7dc5eb533b58a96589350571efbe6d2e);
+            
+        
+
+        circle_marker_778700d860b347306579ee133528019a.bindPopup(popup_8028eff87a2ba8fd980588c63d5ae4e6)
+        ;
+
+        
+    
+    
+            var circle_marker_fe73545c3f8d6dd605f66184de85ad81 = L.circleMarker(
+                [26.8467, 80.9462],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.71215, "stroke": true, "weight": 3}
+            ).addTo(map_79078d3b8d76da834379d2e24464c583);
+        
+    
+        var popup_0333f311ce2161711387cc67708dc5ec = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c9c185df37d726a92ef459505b61887e = $(`<div id="html_c9c185df37d726a92ef459505b61887e" style="width: 100.0%; height: 100.0%;"><b>Lucknow</b><br>             Sales: ₹174,243<br>             Stores: 12<br>             Demand Score: 86<br>             Expansion: No</div>`)[0];
+                popup_0333f311ce2161711387cc67708dc5ec.setContent(html_c9c185df37d726a92ef459505b61887e);
+            
+        
+
+        circle_marker_fe73545c3f8d6dd605f66184de85ad81.bindPopup(popup_0333f311ce2161711387cc67708dc5ec)
+        ;
+
+        
+    
+    
+            var circle_marker_3affb0ca0c53c9324d846a2b3e1dbf4e = L.circleMarker(
+                [21.1702, 72.8311],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21.1327, "stroke": true, "weight": 3}
+            ).addTo(map_79078d3b8d76da834379d2e24464c583);
+        
+    
+        var popup_68de428181227e36521348716f418f2f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_bf4f6d341cd3f5ef08c719189d965acc = $(`<div id="html_bf4f6d341cd3f5ef08c719189d965acc" style="width: 100.0%; height: 100.0%;"><b>Surat</b><br>             Sales: ₹422,654<br>             Stores: 3<br>             Demand Score: 53<br>             Expansion: No</div>`)[0];
+                popup_68de428181227e36521348716f418f2f.setContent(html_bf4f6d341cd3f5ef08c719189d965acc);
+            
+        
+
+        circle_marker_3affb0ca0c53c9324d846a2b3e1dbf4e.bindPopup(popup_68de428181227e36521348716f418f2f)
+        ;
+
+        
+    
+    
+            var circle_marker_abf9ba0a9f1db00531684ff2d0884e90 = L.circleMarker(
+                [9.9312, 76.2673],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.58005, "stroke": true, "weight": 3}
+            ).addTo(map_79078d3b8d76da834379d2e24464c583);
+        
+    
+        var popup_a7a09d598aab1b582e7f58db94fecc04 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2a2e3010a1b9f139d8be6aa1ef2b858a = $(`<div id="html_2a2e3010a1b9f139d8be6aa1ef2b858a" style="width: 100.0%; height: 100.0%;"><b>Kochi</b><br>             Sales: ₹331,601<br>             Stores: 14<br>             Demand Score: 45<br>             Expansion: No</div>`)[0];
+                popup_a7a09d598aab1b582e7f58db94fecc04.setContent(html_2a2e3010a1b9f139d8be6aa1ef2b858a);
+            
+        
+
+        circle_marker_abf9ba0a9f1db00531684ff2d0884e90.bindPopup(popup_a7a09d598aab1b582e7f58db94fecc04)
+        ;
+
+        
+    
+    
+            var circle_marker_ab794fbac8136b9fe698d61a2aae8841 = L.circleMarker(
+                [23.2599, 77.4126],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.61415, "stroke": true, "weight": 3}
+            ).addTo(map_79078d3b8d76da834379d2e24464c583);
+        
+    
+        var popup_a27b49cb47d2b540d7f1d381be301aaa = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7487a83de1c85a501bd26dd0a4ad4947 = $(`<div id="html_7487a83de1c85a501bd26dd0a4ad4947" style="width: 100.0%; height: 100.0%;"><b>Bhopal</b><br>             Sales: ₹252,283<br>             Stores: 2<br>             Demand Score: 49<br>             Expansion: No</div>`)[0];
+                popup_a27b49cb47d2b540d7f1d381be301aaa.setContent(html_7487a83de1c85a501bd26dd0a4ad4947);
+            
+        
+
+        circle_marker_ab794fbac8136b9fe698d61a2aae8841.bindPopup(popup_a27b49cb47d2b540d7f1d381be301aaa)
+        ;
+
+        
+    
+    
+            var circle_marker_c25fa8512bb7b9ff12d384ff7a819852 = L.circleMarker(
+                [21.1458, 79.0882],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.3875, "stroke": true, "weight": 3}
+            ).addTo(map_79078d3b8d76da834379d2e24464c583);
+        
+    
+        var popup_b3394cc5aa3c824a78c020dda6db4705 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a9a1abd5d0f019b65797924cac79b4e7 = $(`<div id="html_a9a1abd5d0f019b65797924cac79b4e7" style="width: 100.0%; height: 100.0%;"><b>Nagpur</b><br>             Sales: ₹307,750<br>             Stores: 12<br>             Demand Score: 96<br>             Expansion: No</div>`)[0];
+                popup_b3394cc5aa3c824a78c020dda6db4705.setContent(html_a9a1abd5d0f019b65797924cac79b4e7);
+            
+        
+
+        circle_marker_c25fa8512bb7b9ff12d384ff7a819852.bindPopup(popup_b3394cc5aa3c824a78c020dda6db4705)
+        ;
+
+        
+    
+    
+            var circle_marker_28796ea8218ac785ae0f05f9fd34de1c = L.circleMarker(
+                [25.5941, 85.1376],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.6399, "stroke": true, "weight": 3}
+            ).addTo(map_79078d3b8d76da834379d2e24464c583);
+        
+    
+        var popup_9bc9fc50905b1a58043ceb2fda7e1788 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5fe2807a4a59c31c86e07f62c7a1fa8b = $(`<div id="html_5fe2807a4a59c31c86e07f62c7a1fa8b" style="width: 100.0%; height: 100.0%;"><b>Patna</b><br>             Sales: ₹132,798<br>             Stores: 5<br>             Demand Score: 63<br>             Expansion: No</div>`)[0];
+                popup_9bc9fc50905b1a58043ceb2fda7e1788.setContent(html_5fe2807a4a59c31c86e07f62c7a1fa8b);
+            
+        
+
+        circle_marker_28796ea8218ac785ae0f05f9fd34de1c.bindPopup(popup_9bc9fc50905b1a58043ceb2fda7e1788)
+        ;
+
+        
+    
+    
+            var circle_marker_38f75669d01d1254c6da3e1883f2f4bc = L.circleMarker(
+                [22.7196, 75.8577],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.3292, "stroke": true, "weight": 3}
+            ).addTo(map_79078d3b8d76da834379d2e24464c583);
+        
+    
+        var popup_f4086aedf12f3958033d25ceeac2d11d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_3f69ed40864218bc5c0de9758db2c105 = $(`<div id="html_3f69ed40864218bc5c0de9758db2c105" style="width: 100.0%; height: 100.0%;"><b>Indore</b><br>             Sales: ₹286,584<br>             Stores: 13<br>             Demand Score: 54<br>             Expansion: No</div>`)[0];
+                popup_f4086aedf12f3958033d25ceeac2d11d.setContent(html_3f69ed40864218bc5c0de9758db2c105);
+            
+        
+
+        circle_marker_38f75669d01d1254c6da3e1883f2f4bc.bindPopup(popup_f4086aedf12f3958033d25ceeac2d11d)
+        ;
+
+        
+    
+    
+            var circle_marker_61b2f6e796be9f01b817ff89e4b95374 = L.circleMarker(
+                [11.0168, 76.9558],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.50755, "stroke": true, "weight": 3}
+            ).addTo(map_79078d3b8d76da834379d2e24464c583);
+        
+    
+        var popup_4e6ee86842946720052daea03bfec6e3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_24ef899a7646be833e555b9e3336e279 = $(`<div id="html_24ef899a7646be833e555b9e3336e279" style="width: 100.0%; height: 100.0%;"><b>Coimbatore</b><br>             Sales: ₹170,151<br>             Stores: 1<br>             Demand Score: 83<br>             Expansion: Yes</div>`)[0];
+                popup_4e6ee86842946720052daea03bfec6e3.setContent(html_24ef899a7646be833e555b9e3336e279);
+            
+        
+
+        circle_marker_61b2f6e796be9f01b817ff89e4b95374.bindPopup(popup_4e6ee86842946720052daea03bfec6e3)
+        ;
+
+        
+    
+    
+            var circle_marker_eec09240efde0d7e19111986ff8c8f08 = L.circleMarker(
+                [17.6868, 83.2185],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.5824, "stroke": true, "weight": 3}
+            ).addTo(map_79078d3b8d76da834379d2e24464c583);
+        
+    
+        var popup_994aec61e272a3c01a721d65a4ed77ca = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_bfad0f72dc4663fa115914dcacf67a66 = $(`<div id="html_bfad0f72dc4663fa115914dcacf67a66" style="width: 100.0%; height: 100.0%;"><b>Visakhapatnam</b><br>             Sales: ₹351,648<br>             Stores: 8<br>             Demand Score: 74<br>             Expansion: No</div>`)[0];
+                popup_994aec61e272a3c01a721d65a4ed77ca.setContent(html_bfad0f72dc4663fa115914dcacf67a66);
+            
+        
+
+        circle_marker_eec09240efde0d7e19111986ff8c8f08.bindPopup(popup_994aec61e272a3c01a721d65a4ed77ca)
+        ;
+
+        
+    
+    
+            var circle_marker_8d56e26ca35fb0eec0b2a7337b456ef5 = L.circleMarker(
+                [30.7333, 76.7794],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.9499, "stroke": true, "weight": 3}
+            ).addTo(map_79078d3b8d76da834379d2e24464c583);
+        
+    
+        var popup_e8f00887f69e2591cc96865d96762155 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4ce7544c222bb97774e1bc24379a526d = $(`<div id="html_4ce7544c222bb97774e1bc24379a526d" style="width: 100.0%; height: 100.0%;"><b>Chandigarh</b><br>             Sales: ₹338,998<br>             Stores: 10<br>             Demand Score: 80<br>             Expansion: No</div>`)[0];
+                popup_e8f00887f69e2591cc96865d96762155.setContent(html_4ce7544c222bb97774e1bc24379a526d);
+            
+        
+
+        circle_marker_8d56e26ca35fb0eec0b2a7337b456ef5.bindPopup(popup_e8f00887f69e2591cc96865d96762155)
+        ;
+
+        
+    
+    
+            var circle_marker_e138c37a654111fa423c89f43ac3caff = L.circleMarker(
+                [26.1445, 91.7362],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.06395, "stroke": true, "weight": 3}
+            ).addTo(map_79078d3b8d76da834379d2e24464c583);
+        
+    
+        var popup_b5a6732747266ca178fbe49670d7198c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5c8545331ee6bf90c22eb5ee454f096a = $(`<div id="html_5c8545331ee6bf90c22eb5ee454f096a" style="width: 100.0%; height: 100.0%;"><b>Guwahati</b><br>             Sales: ₹401,279<br>             Stores: 7<br>             Demand Score: 62<br>             Expansion: No</div>`)[0];
+                popup_b5a6732747266ca178fbe49670d7198c.setContent(html_5c8545331ee6bf90c22eb5ee454f096a);
+            
+        
+
+        circle_marker_e138c37a654111fa423c89f43ac3caff.bindPopup(popup_b5a6732747266ca178fbe49670d7198c)
+        ;
+
+        
+    
+</script>
+</html>

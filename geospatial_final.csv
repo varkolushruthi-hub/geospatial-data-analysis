@@ -1,0 +1,21 @@
+City,State,Region,Latitude,Longitude,Monthly_Sales,Num_Stores,Demand_Score,Population_Millions,Avg_Order_Value,Customer_Count,Sales_Per_Store,Expansion_Opportunity
+Mumbai,Maharashtra,West,19.076,72.8777,171958,4,68,4.1,4008.61,6234,42989.5,No
+Delhi,Delhi,North,28.6139,77.209,187337,3,62,1.6,4397.79,8822,62445.67,No
+Bangalore,Karnataka,South,12.9716,77.5946,379365,5,41,14.6,4723.49,2933,75873.0,No
+Hyderabad,Telangana,South,17.385,78.4867,317455,12,60,12.5,3252.44,6896,26454.58,No
+Chennai,Tamil Nadu,South,13.0827,80.2707,308795,9,88,10.7,2299.37,2547,34310.56,No
+Kolkata,West Bengal,East,22.5726,88.3639,180523,12,55,5.0,907.73,3505,15043.58,No
+Pune,Maharashtra,West,18.5204,73.8567,431490,12,94,19.7,2600.43,4056,35957.5,No
+Ahmedabad,Gujarat,West,23.0225,72.5714,53890,7,60,9.3,559.69,9292,7698.57,No
+Jaipur,Rajasthan,North,26.9124,75.7873,289931,14,89,8.0,571.85,7541,20709.36,No
+Lucknow,Uttar Pradesh,North,26.8467,80.9462,174243,12,86,13.8,3244.98,1275,14520.25,No
+Surat,Gujarat,West,21.1702,72.8311,422654,3,53,8.1,1320.06,8055,140884.67,No
+Kochi,Kerala,South,9.9312,76.2673,331601,14,45,4.6,3054.65,7373,23685.79,No
+Bhopal,Madhya Pradesh,Central,23.2599,77.4126,252283,2,49,17.9,3190.55,8129,126141.5,No
+Nagpur,Maharashtra,Central,21.1458,79.0882,307750,12,96,19.2,4300.4,8416,25645.83,No
+Patna,Bihar,East,25.5941,85.1376,132798,5,63,7.5,1764.21,9071,26559.6,No
+Indore,Madhya Pradesh,Central,22.7196,75.8577,286584,13,54,3.7,570.36,3068,22044.92,No
+Coimbatore,Tamil Nadu,South,11.0168,76.9558,170151,1,83,6.2,563.36,6118,170151.0,Yes
+Visakhapatnam,Andhra Pradesh,South,17.6868,83.2185,351648,8,74,15.9,3226.82,4061,43956.0,No
+Chandigarh,Punjab,North,30.7333,76.7794,338998,10,80,18.3,4325.17,3604,33899.8,No
+Guwahati,Assam,Northeast,26.1445,91.7362,401279,7,62,13.5,3496.65,3231,57325.57,No
